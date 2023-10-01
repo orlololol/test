@@ -83,7 +83,6 @@ class SignatureChecker(QMainWindow, Ui_MainWindow):
             self.captured_img.setAlignment(QtCore.Qt.AlignHCenter | QtCore.Qt.AlignVCenter)
             
 
-
         img_2_path = self.current_text()
         camera_image = 'captured_image.png'
         original_image = f'signature-verification-dataset/sign_data/test/0{str(img_2_path)}/01_0{str(img_2_path)}.png'
